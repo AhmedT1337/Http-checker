@@ -16,4 +16,4 @@ for domain in domains :
         status_2 = requests.get(domain_2, timeout = 1)
         print(f"{domain}, http: {status_1.status_code}, https: {status_2.status_code}\n")
     except :
-        print(f"{domain} doesn't work\n")
+        pass
